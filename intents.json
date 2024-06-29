@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "How is it going?"],
+    "responses": ["Hello!", "hey!", "What can i do for you?"]
+    },
+
+    {"tag": "goodbye",
+    "patterns": ["See you later", "Goodbye", "I am leaving", "Have a good day", "bye"],
+    "responses": ["Talk to you later", "Goodbye!"]
+    },
+
+    {"tag": "age",
+     "patterns": ["How old","How old is Ramya", "what is your age", "how old are you", "age?"],
+     "responses":["Ramya is 21 years", "21 years!"]
+    },
+
+    {"tag": "name",
+     "patterns": ["What is your name?", "what should i call you?", "who are you?"],
+     "responses": ["You can call me neural!", "i am neural", "I am neural the assistant of Ramya!"]
+    },
+
+    {"tag": "shop",
+     "patterns": ["i would like to buy something", "what are your products?", "What do you recommend?"],
+     "responses": ["Dress", "book", "ice cream", "flute"]
+    },
+
+    {"tag": "hours",
+    "patterns": ["when are you guys open?", "what are your hours?", "when can i chat with you?"],
+    "responses": ["24/7"]
+}
+
+
+] }
